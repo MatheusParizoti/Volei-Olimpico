@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>volei-olimpico</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik&family=Secular+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./src/css/reset.css">
+        <link rel="stylesheet" href="./src/css/estilos.css">
+        <link rel="stylesheet" href="./src/css/responsivo.css">
+        <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <main class="personagens">
+            <!-- chopper -->
+            <div class="personagem">
+
+                <video class="video" autoplay loop muted>
+                    <source src="./src/video/quadra_masculino.mp4" type="video/mp4">
+                </video>
+
+                <div class="conteudo">
+                    <h2 class="nome-personagem">Volei Masculino</h2>
+                    <p class="descricao">A seleção brasileira masculina de vôlei é uma das mais bem-sucedidas e respeitadas no cenário internacional. Conhecida por sua habilidade técnica, trabalho em equipe e consistência, a equipe conquistou múltiplos títulos importantes, incluindo três medalhas de ouro olímpicas (1992, 2004 e 2016) e três Campeonatos Mundiais (2002, 2006 e 2010).</p>
+                </div>
+            </div>
+
+            <!-- zoro -->
+            <div class="personagem">
+
+                <video class="video" autoplay loop muted>
+                    <source src="./src/video/quadra_feminino.mp4" type="video/mp4">
+                </video>
+
+                <div class="conteudo">
+                    <h2 class="nome-personagem">Volei Feminino</h2>
+                    <p class="descricao">A seleção brasileira feminina de vôlei é uma das principais forças do vôlei mundial, reconhecida por sua técnica apurada, determinação e espírito de equipe. A equipe conquistou dois títulos olímpicos consecutivos, em 2008 e 2012, e é regularmente competitiva em campeonatos mundiais e outras competições internacionais.</p>
+                </div>
+            </div>
+
+            <!-- luffy -->
+            <div class="personagem selecionado">
+
+                <video class="video" autoplay loop muted>
+                    <source src="./src/video/paris.mp4" type="video/mp4">
+                </video>
+
+                <div class="conteudo">
+                    <h2 class="nome-personagem">Olimpíadas</h2>
+                    <p class="descricao">As Olimpíadas de 2024, oficialmente conhecidas como Jogos Olímpicos de Verão de 2024, serão realizadas em Paris, França, de 26 de julho a 11 de agosto de 2024. Esta será a terceira vez que Paris sedia os Jogos Olímpicos, tendo sido anfitriã anteriormente em 1900 e 1924. Os Jogos de 2024 marcam o centenário dos Jogos de Paris de 1924.</p>
+                </div>
+            </div>
+
+            <!-- nami -->
+            <div class="personagem">
+
+                <video class="video" autoplay loop muted>
+                    <source src="./src/video/areia_feminino.mp4" type="video/mp4">
+                </video>
+
+                <div class="conteudo">
+                    <h2 class="nome-personagem">Praia Feminino</h2>
+                    <p class="descricao">A seleção brasileira feminina de vôlei de praia é uma das mais bem-sucedidas e admiradas do mundo. Desde a estreia do esporte nos Jogos Olímpicos em 1996, as duplas brasileiras têm consistentemente alcançado o pódio, conquistando várias medalhas de ouro, prata e bronze.</p>
+                </div>
+            </div>
+
+            <!-- sanji -->
+            <div class="personagem">
+
+                <video class="video" autoplay loop muted>
+                    <source src="./src/video/areia_masculino.mp4" type="video/mp4">
+                </video>
+
+                <div class="conteudo">
+                    <h2 class="nome-personagem">Praia Masculino</h2>
+                    <p class="descricao">A seleção brasileira masculina de vôlei de praia é uma das mais dominantes e respeitadas no cenário global. Desde a introdução do esporte nos Jogos Olímpicos de 1996, o Brasil tem sido uma força constante, conquistando diversas medalhas e títulos importantes.</p>
+                </div>
+            </div>
+        </main>
+        <ul class="botoes">
+            <!-- chopper -->
+            <li>
+                <button class="botao" id="chopper">
+                    <img src="./src/img/quadra_masculino.png" alt="quadra_masculino">
+                </button>
+            </li>
+            <!-- zoro -->
+            <li>
+                <button class="botao">
+                    <img src="./src/img/quadra_feminino.png" alt="quadra_feminino">
+                </button>
+            </li>
+            <!-- luffy -->
+            <li>
+                <button class="botao selecionado">
+                    <img src="./src/img/paris_2024.png" alt="paris_2024">
+                </button>
+            </li>
+            <!-- nami -->
+            <li>
+                <button class="botao">
+                    <img src="./src/img/areia_feminino.png" alt="areia_feminino">
+                </button>
+            </li>
+            <!-- sanji -->
+            <li>
+                <button class="botao">
+                    <img src="./src/img/areia_masculino.png" alt="areia_masculino">
+                </button>
+            </li>
+        </ul>
+        <script src="./src/js/index.js"></script>
+    </body>
+</html>
